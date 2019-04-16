@@ -8,6 +8,30 @@ img {
 	max-width: 100%;
 }
 
+}
+input, textarea, select, button{
+  width : 15%;
+  margin: 0;
+  font-family : inherit;
+  font-size   : 100%;
+
+  -webkit-box-sizing: border-box; 
+     -moz-box-sizing: border-box; 
+          box-sizing: border-box;
+}
+
+legend {
+  overflow: hidden;
+}
+
+input:focus, textarea:focus {
+  background   : blue;
+  border-radius: 6px;
+outline : none;
+	
+[Type="radio"]{
+width: 1%;
+
 .form-container {
     background: #b0ff7f;
 }
